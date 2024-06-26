@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/hero-bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/partners/amazon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/partners/dribble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/partners/hubspot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/partners/netflix.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/partners/notion.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/partners/zoom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2iLrs11afiD4cqatujNCHiyscTG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/artem/OneDrive/Desktop/Css/Lamkov/pozitivus",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images\partners" />
+      <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="" />
+      <created>1719280902132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719280902132</updated>
+      <workItem from="1719280903160" duration="70000" />
+      <workItem from="1719281087445" duration="2465000" />
+      <workItem from="1719283637663" duration="4000" />
+      <workItem from="1719284672164" duration="1840000" />
+      <workItem from="1719367506065" duration="171000" />
+      <workItem from="1719367689493" duration="1264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
