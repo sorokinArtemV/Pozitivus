@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_puddle-bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_service-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/blocks/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +56,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images\partners" />
       <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images" />
+      <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images\services" />
+      <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images\icons" />
+      <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images\partners" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -78,6 +84,8 @@
       <workItem from="1719367506065" duration="171000" />
       <workItem from="1719367689493" duration="2953000" />
       <workItem from="1719454894014" duration="4226000" />
+      <workItem from="1719967540558" duration="23000" />
+      <workItem from="1719977254299" duration="1661000" />
     </task>
     <servers />
   </component>
