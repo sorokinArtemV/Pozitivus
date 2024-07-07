@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/blocks/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/blocks/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/blocks/_puddle-bg.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/blocks/_service-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/blocks/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/blocks/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_service-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_service-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -10,9 +10,19 @@
     align-items: center;
     text-align: center;
     column-gap: 40px;
+    text-align: center;
+
+    @include mobile {
+      flex-direction: column;
+      row-gap: 30px;
+    }
 
     &:not(:last-child) {
       margin-bottom: 80px;
+
+      @include mobile {
+        margin-bottom: 40px;
+      }
     }
   }
 
