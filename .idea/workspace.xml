@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="">
+    <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/blocks/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/blocks/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/blocks/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/blocks/_service-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_service-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/blocks/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
     </list>
@@ -38,7 +33,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;styling-revisit&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/artem/OneDrive/Desktop/Css/Lamkov/pozitivus&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -83,10 +78,15 @@
       <workItem from="1720286073913" duration="465000" />
       <workItem from="1720343418960" duration="698000" />
       <workItem from="1720345286293" duration="2802000" />
+      <workItem from="1720406989361" duration="837000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
   </component>
 </project>
