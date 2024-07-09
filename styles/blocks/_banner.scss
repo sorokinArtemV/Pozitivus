@@ -9,8 +9,8 @@
 
   &__inner {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--color-gray);
     border-radius: var(--border-radius-large);
   }
@@ -25,6 +25,10 @@
     @include tablet {
       padding: 50px;
     }
+
+    @include mobile {
+      row-gap: 20px;
+    }
   }
 
   &__description {
@@ -37,10 +41,6 @@
     @include tablet {
       max-width: 40%;
       height: auto;
-    }
-
-    @include mobile {
-      row-gap: 20px;
     }
   }
 }

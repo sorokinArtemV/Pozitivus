@@ -6,10 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_utils.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_utils.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_burger-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_burger-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_cross-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_cross-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_mobile-overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_mobile-overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_puddle-bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_puddle-bg.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/blocks/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_service-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_service-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/blocks/_studies.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/_studies.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +68,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\styles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images\partners" />
       <recent name="C:\Users\artem\OneDrive\Desktop\Css\Lamkov\pozitivus\images" />
@@ -79,6 +102,10 @@
       <workItem from="1720343418960" duration="698000" />
       <workItem from="1720345286293" duration="2802000" />
       <workItem from="1720406989361" duration="2408000" />
+      <workItem from="1720579418694" duration="3025000" />
+      <workItem from="1720582495153" duration="227000" />
+      <workItem from="1720582760247" duration="492000" />
+      <workItem from="1720662819404" duration="1143000" />
     </task>
     <servers />
   </component>

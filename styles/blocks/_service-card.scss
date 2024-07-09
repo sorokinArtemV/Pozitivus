@@ -34,7 +34,6 @@
     }
   }
 
-
   &__image {
     align-self: center;
 
@@ -54,7 +53,7 @@
     align-items: start;
 
     @include mobile {
-      grid-column: -1/1;
+      grid-column: -1 / 1;
     }
   }
 
@@ -94,7 +93,7 @@
 
     &-label {
       @include mobile {
-        @include visually-hidden
+        @include visually-hidden;
       }
     }
   }

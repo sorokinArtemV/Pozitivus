@@ -102,13 +102,9 @@ html {
     (когда, например, нужно будет "прижать" футер к низу сайта)
    */
   height: 100%;
-}
-
-/**
-  Плавный скролл
- */
-html,
-:has(:target) {
+  /**
+    Плавный скролл
+   */
   scroll-behavior: smooth;
 }
 
@@ -156,26 +152,26 @@ svg * {
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../../../Pozitivus/fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+  src: url("../fonts/SpaceGrotesk-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../../../Pozitivus/fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+  src: url("../fonts/SpaceGrotesk-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 :root {
   --color-dark: #191A23;
-  --color-dark-alt: #292a32;
-  --color-light: #FFF;
+  --color-dark-alt: #292A32;
+  --color-light: #FFFFFF;
   --color-accent: #B9FF66;
   --color-gray: #F3F3F3;
   --color-gray-alt: #898989;
-  --border: 1px solid var(--color-dark-alt);
+  --border: 1px solid var(--color-dark);
   --border-radius: 14px;
   --border-radius-small: 7px;
   --border-radius-large: 45px;
@@ -232,7 +228,7 @@ svg * {
 
 body {
   font-size: clamp(16px, 1.25vw, 18px);
-  font-family: var(--font-family-base), sans-serif;
+  font-family: var(--font-family-base);
   font-weight: 400;
   line-height: 1.28;
   color: var(--color-dark);
@@ -242,77 +238,90 @@ body {
 a,
 button,
 input,
-select,
 textarea,
 svg * {
   transition-duration: var(--transition-duration);
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-weight: 500;
 }
 
-h1 {
+h1, .h1 {
   font-size: clamp(43px, 4.1666666667vw, 60px);
 }
 
-h2 {
-  font-size: clamp(pxpx, 2.7777777778vw, 40px);
+h2, .h2 {
+  font-size: clamp(36px, 2.7777777778vw, 40px);
 }
 
-h3 {
+h3, .h3 {
   font-size: clamp(26px, 2.0833333333vw, 30px);
 }
 
-h4 {
+h4, .h4 {
   font-size: clamp(18px, 1.3888888889vw, 20px);
 }
 
 .button {
   display: inline-flex;
-  align-items: center;
   justify-content: center;
-  padding-inline: 35px;
+  align-items: center;
   height: var(--button-height);
+  padding-inline: 35px;
+  font-size: 20px;
+  color: var(--color-light);
   background-color: var(--color-dark);
   border: var(--border);
   border-radius: var(--border-radius);
-  color: var(--color-light);
 }
 @media (hover: hover) {
   .button:hover {
-    background-color: var(--color-accent);
     color: var(--color-dark);
+    background-color: var(--color-accent);
   }
 }
 @media (hover: none) {
   .button:active {
-    background-color: var(--color-accent);
     color: var(--color-dark);
+    background-color: var(--color-accent);
   }
 }
 .button--transparent {
-  background-color: transparent;
   color: var(--color-dark);
+  background-color: transparent;
+}
+.button--accent {
+  color: var(--color-dark);
+  background-color: var(--color-accent);
+}
+@media (hover: hover) {
+  .button--accent:hover {
+    color: var(--color-accent);
+    background-color: var(--color-dark);
+  }
+}
+@media (hover: none) {
+  .button--accent:active {
+    color: var(--color-accent);
+    background-color: var(--color-dark);
+  }
 }
 
 .grid {
   --gridColumns: 1;
   display: grid;
   grid-template-columns: repeat(var(--gridColumns), 1fr);
-  grid-gap: 40px;
+  gap: 40px;
 }
 @media (max-width: 767px) {
   .grid {
-    grid-gap: 30px;
+    gap: 30px;
   }
 }
 .grid--2 {
@@ -353,6 +362,16 @@ h4 {
     --gridColumns: 1;
   }
 }
+@media (max-width: 1280px) {
+  .grid--3 {
+    --gridColumns: 2;
+  }
+}
+@media (max-width: 767px) {
+  .grid--3 {
+    --gridColumns: 1;
+  }
+}
 
 .burger-button {
   padding: 0;
@@ -377,7 +396,7 @@ h4 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  translate: -50% -50%;
   content: "";
   width: 50%;
   height: 2px;
@@ -408,11 +427,6 @@ h4 {
 @media (max-width: 1023px) {
   .header__inner {
     column-gap: 30px;
-  }
-}
-@media (max-width: 1280px) {
-  .header__logo {
-    max-width: 140px;
   }
 }
 @media (max-width: 1023px) {
@@ -476,19 +490,10 @@ h4 {
   background-color: currentColor;
   transition-duration: inherit;
 }
-@media (max-width: 1280px) {
-  .header__button {
-    height: 56px;
-    padding-inline: 18px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 1023px) {
-  .header__button {
-    height: 48px;
-    padding-inline: 18px;
-    font-size: 16px;
-  }
+.header__button {
+  height: 48px;
+  padding-inline: 18px;
+  font-size: 16px;
 }
 
 .cross-button {
@@ -502,20 +507,19 @@ h4 {
 }
 @media (hover: hover) {
   .cross-button:hover {
-    color: var(--color-accent);
+    background-color: var(--color-accent);
   }
 }
 @media (hover: none) {
   .cross-button:active {
-    color: var(--color-accent);
+    background-color: var(--color-accent);
   }
 }
 .cross-button::before, .cross-button::after {
   content: "";
   position: absolute;
   top: 50%;
-  left: 50%;
-  translate: -50% -50%;
+  left: 7px;
   width: 70%;
   height: 2px;
   background-color: var(--color-dark);
@@ -532,7 +536,7 @@ h4 {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 15px 20px;
+  padding: 14px 20px;
   border: none;
 }
 .mobile-overlay:modal {
@@ -541,12 +545,12 @@ h4 {
 }
 .mobile-overlay__close-button-wrapper {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
 }
 .mobile-overlay__list {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   row-gap: 30px;
   min-height: 80vh;
@@ -565,9 +569,9 @@ h4 {
 }
 @media (max-width: 767px) {
   .section__header {
-    text-align: center;
     flex-direction: column;
     row-gap: 30px;
+    text-align: center;
   }
 }
 .section__header:not(:last-child) {
@@ -607,13 +611,11 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: start;
-  row-gap: 35px;
   max-width: 531px;
+  row-gap: 35px;
 }
 @media (max-width: 767px) {
   .hero__body {
-    /* It essentially makes the container element disappear,
-    making its child elements children of the element one level up in the DOM. */
     display: contents;
   }
 }
@@ -659,17 +661,19 @@ h4 {
     margin-left: calc((var(--heroPartnersWidthOffsetX) + var(--container-padding-x)) * -1);
   }
 }
-.hero__partners-item {
-  display: flex;
-  justify-content: center;
+@media (max-width: 1023px) {
+  .hero__partners-item {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 480px) {
   .hero__partners-item {
     justify-content: start;
   }
-}
-.hero__partners-item:nth-child(-n+3) {
-  justify-content: end;
+  .hero__partners-item:nth-child(-n+3) {
+    justify-content: end;
+  }
 }
 .hero__partners-image {
   filter: grayscale(1);
@@ -690,7 +694,7 @@ h4 {
 }
 
 .puddle-bg {
-  padding-inline: 8px;
+  padding-inline: 7px;
   background-color: var(--color-accent);
   border-radius: var(--border-radius-small);
 }
@@ -794,8 +798,8 @@ h4 {
 }
 .service-card__link-icon-wrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 41px;
   aspect-ratio: 1;
   background-color: currentColor;
@@ -830,8 +834,8 @@ h4 {
 }
 .banner__inner {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--color-gray);
   border-radius: var(--border-radius-large);
 }
@@ -847,6 +851,11 @@ h4 {
     padding: 50px;
   }
 }
+@media (max-width: 767px) {
+  .banner__body {
+    row-gap: 20px;
+  }
+}
 .banner__description {
   max-width: 500px;
 }
@@ -859,11 +868,6 @@ h4 {
     height: auto;
   }
 }
-@media (max-width: 767px) {
-  .banner__image {
-    row-gap: 20px;
-  }
-}
 
 @media (min-width: 1281px) {
   .studies {
@@ -872,10 +876,10 @@ h4 {
 }
 @media (min-width: 768px) {
   .studies {
+    padding: 40px;
     color: var(--color-light);
     background-color: var(--color-dark);
     border-radius: var(--border-radius-large);
-    padding: 40px;
   }
 }
 .studies__list {

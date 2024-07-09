@@ -4,10 +4,10 @@
   }
 
   @include mobile-above {
+    padding: 40px;
     color: var(--color-light);
     background-color: var(--color-dark);
     border-radius: var(--border-radius-large);
-    padding: 40px;
   }
 
   &__list {
