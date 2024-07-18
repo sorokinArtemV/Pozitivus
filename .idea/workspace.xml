@@ -12,9 +12,13 @@
       <change afterPath="$PROJECT_DIR$/images/team/4.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/team/5.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/team/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_team-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_team.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +102,7 @@
       <workItem from="1720933897855" duration="323000" />
       <workItem from="1720934329415" duration="39000" />
       <workItem from="1720934434242" duration="261000" />
-      <workItem from="1721268931996" duration="1835000" />
+      <workItem from="1721268931996" duration="5175000" />
     </task>
     <servers />
   </component>
