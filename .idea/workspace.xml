@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="merge">
-      <change afterPath="$PROJECT_DIR$/images/icons/arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/star.svg" afterDir="false" />
+    <list default="true" id="9170237e-b1da-4e39-bd8f-3e730c6ff2b3" name="Changes" comment="merge section-reviews-markup">
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_review-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blocks/_reviews.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "section-reviews",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/artem/OneDrive/Desktop/Css/Lamkov/pozitivus",
     "node.js.detected.package.eslint": "true",
@@ -103,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+    <MESSAGE value="merge section-reviews-markup" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge section-reviews-markup" />
   </component>
 </project>
